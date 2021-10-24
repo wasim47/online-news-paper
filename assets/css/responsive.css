@@ -1,0 +1,255 @@
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||
+				   ==MEDIA QUERY==
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+   
+/*------desktop--------*/
+@media (min-width: 980px) and (max-width: 1199px) {
+	
+		
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+.main_menu{
+		display:none;
+		}
+    
+.responsive_menu_wrap{
+		display:block;
+		}
+    
+   .fa.fa-angle-down {
+    display: none;
+}
+    
+.big_img img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+    
+    .pl_5{
+        padding-left:15px;
+    }
+    
+    .entertainment_section .pl_5{
+        padding-left: 0;
+    }
+    
+    .news_section_1 .pl_5{
+        padding-left: 5px;
+    }
+    .small_img{
+        margin-top: 20px;
+    }
+    
+    .big_img a::before{
+        top: -6%;
+    }
+    
+    .gallery_img{
+        max-width:100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+        .gallery_img img {
+    width: 100%;
+    margin: 0 auto;
+
+}
+    
+    .live_tv > img{
+        margin: 0 auto;
+    }
+    
+    .social a{
+        width: 71%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    
+    .todays_news {
+    max-width: 398px;
+    margin: 0 auto;
+        margin-bottom: 20px;
+}
+    
+     .slider_area{
+        margin-bottom: 20px;
+    }
+    
+    .social a {
+    margin: 0 auto 15px;
+    width: 57%;
+}
+
+}
+
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 767px) {
+	.main_menu{
+		display:none;
+		}
+    
+.responsive_menu_wrap{
+		display:block;
+		}
+    
+    .fa fa-angle-down{
+        display: none;
+    }
+    
+
+    
+    .first_section{
+        padding-bottom: 0;
+    }
+    
+    .title_area a::before {
+    left: 25%;
+    width: 69%;
+    }
+    
+    .big_caption a{
+        font-size: 20px;
+    }
+    
+    .big_img.full {
+    margin-bottom: 20px;
+}
+    
+.gallery_img {
+    margin: 0 auto;
+    max-width: 470px;
+    margin-bottom: 20px;
+}
+    
+    .slider_area {
+    margin-bottom: 20px;
+    max-width: 470px;
+    margin: 0 auto;
+}
+    
+   .fa.fa-angle-down {
+    display: none;
+}
+    
+    .gallery_img img {
+    width: 100%;
+    margin: 0 auto;
+}
+    
+    .live_tv > img{
+        margin: 0 auto;
+    }
+    
+    .social a{
+        width: 71%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    
+    .todays_news {
+    max-width: 398px;
+    margin: 0 auto;
+        margin-bottom: 20px;
+}
+    
+    .big_img{
+        max-width: 470px;
+        margin: 0 auto;
+    }
+    .small_img{
+        max-width: 470px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    .title_area a{
+        padding-left: 43px;
+    }
+	}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+.main_menu{
+		display:none;
+		}
+  .logo{
+ 	text-align:center; 
+	padding:0;
+	margin:0;
+  } 
+   .logo img{
+ 	width:40%;
+	height:auto;
+  } 
+ .top_left_side{
+ 	text-align:center; 
+ }
+.responsive_menu_wrap{
+		display:block;
+		}
+    
+    .fa fa-angle-down{
+        display: none;
+    }
+    
+    .small_img{
+        margin-bottom:20px;
+    }
+    
+    .first_section{
+        padding-bottom: 0;
+    }
+    
+    .title_area a::before {
+    left: 25%;
+    width: 69%;
+    }
+    
+    .big_caption a{
+        font-size: 20px;
+    }
+    
+    .big_img.full {
+    margin-bottom: 20px;
+}
+    
+    .gallery_img {
+    margin-bottom: 20px;
+}
+    
+    .slider_area{
+        margin-bottom: 20px;
+    }
+    
+   .fa.fa-angle-down {
+    display: none;
+}
+    
+/*top menu*/
+    
+    .top_menu {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    
+    .top_menu ul li a {
+    font-size: 13px;
+    padding: 15px 19px;
+
+}
+    
+    .footer_content p{
+        font-size: 12px;
+    }
+
+}
